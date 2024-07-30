@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(197, 185, 209);
+}
+
+nav .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+}
+nav .title a {
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
